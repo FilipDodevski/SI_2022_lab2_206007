@@ -10,7 +10,7 @@ public class SILab2 {
         int n = list.size();  //3
         int rootOfN = (int) Math.sqrt(n);  //3
 
-        if (rootOfN * rootOfN != n) {  //4
+        if (rootOfN * rootOfN != n) { //4
             throw new IllegalArgumentException("List length should be a perfect square");  //5
         }
         List<String> numMines = new ArrayList<>();  //6
